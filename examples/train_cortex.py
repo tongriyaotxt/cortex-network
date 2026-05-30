@@ -47,23 +47,54 @@ from cortex import CORTEXModel
 # =============================================================================
 
 class TokenDataset(Dataset):
-    """简单的 token 序列数据集，用于语言建模。"""
-    def __init__(self, token_ids, seq_len=512):
-        self.token_ids = token_ids
+    """Token 序列数据集，支持 flat token list 或 pre-tokenized sequences。"""
+    def __init__(self, data, seq_len=512, is_sequences=False):
         self.seq_len = seq_len
-        # 确保长度是 (seq_len + 1) 的整数倍，这样每个样本可以生成 input 和 label
-        n = len(token_ids) // (seq_len + 1) * (seq_len + 1)
-        self.token_ids = self.token_ids[:n]
-        self.n_samples = n // (seq_len + 1)
+        self.samples = []
+        
+        if is_sequences:
+            # data: list of token sequences
+            for seq in data:
+                if len(seq) < seq_len + 1:
+                    continue
+                n = len(seq) // (seq_len + 1) * (seq_len + 1)
+                seq = seq[:n]
+                for i in range(0, n, seq_len + 1):
+                    chunk = seq[i:i + seq_len + 1]
+                    if len(chunk) == seq_len + 1:
+                        self.samples.append((chunk[:-1], chunk[1:]))
+        else:
+            # data: flat list of token ids
+            n = len(data) // (seq_len + 1) * (seq_len + 1)
+            data = data[:n]
+            for i in range(0, n, seq_len + 1):
+                chunk = data[i:i + seq_len + 1]
+                self.samples.append((chunk[:-1], chunk[1:]))
     
     def __len__(self):
-        return self.n_samples
+        return len(self.samples)
     
     def __getitem__(self, idx):
-        start = idx * self.seq_len
-        end = start + self.seq_len + 1
-        chunk = self.token_ids[start:end]
-        return torch.tensor(chunk[:-1], dtype=torch.long), torch.tensor(chunk[1:], dtype=torch.long)
+        inputs, labels = self.samples[idx]
+        return torch.tensor(inputs, dtype=torch.long), torch.tensor(labels, dtype=torch.long)
+
+
+def lm_collate_fn(batch, pad_token_id=0):
+    """语言建模的 collate 函数：对 input 和 label 分别做 padding。"""
+    inputs, labels = zip(*batch)
+    max_len = max(len(x) for x in inputs)
+    
+    padded_inputs = []
+    padded_labels = []
+    masks = []
+    
+    for x, y in zip(inputs, labels):
+        pad_len = max_len - len(x)
+        padded_inputs.append(torch.cat([x, torch.full((pad_len,), pad_token_id, dtype=torch.long)]))
+        padded_labels.append(torch.cat([y, torch.full((pad_len,), -100, dtype=torch.long)]))  # -100 ignored by CE
+        masks.append(torch.cat([torch.ones(len(x)), torch.zeros(pad_len)]))
+    
+    return torch.stack(padded_inputs), torch.stack(padded_labels), torch.stack(masks)
 
 
 class TextClassificationDataset(Dataset):
@@ -192,6 +223,7 @@ class Trainer:
             dropout=args.dropout,
             num_classes=args.num_classes if args.task == 'classification' else None,
             consciousness_output=True,
+            causal=args.causal,
             tie_weights=args.tie_weights,
         )
     
@@ -264,10 +296,15 @@ class Trainer:
     def _train_step(self, batch):
         """单次训练步。"""
         if self.args.task == 'lm':
-            inputs, labels = batch
+            # collate_fn 返回 (inputs, labels, masks)
+            if len(batch) == 3:
+                inputs, labels, attention_mask = batch
+                attention_mask = attention_mask.to(self.device)
+            else:
+                inputs, labels = batch
+                attention_mask = (inputs != 0).float().to(self.device)
             inputs = inputs.to(self.device)
             labels = labels.to(self.device)
-            attention_mask = (inputs != 0).float()
         else:
             inputs, labels = batch
             inputs = inputs.to(self.device)
@@ -324,7 +361,10 @@ class Trainer:
         with torch.no_grad():
             for batch in val_loader:
                 if self.args.task == 'lm':
-                    inputs, labels = batch
+                    if len(batch) == 3:
+                        inputs, labels, _ = batch
+                    else:
+                        inputs, labels = batch
                     inputs = inputs.to(self.device)
                     labels = labels.to(self.device)
                 else:
@@ -438,23 +478,94 @@ class Trainer:
 # =============================================================================
 
 def load_data(args):
-    """根据任务加载数据。"""
-    tokenizer = SimpleTokenizer(vocab_size=args.vocab_size)
+    """加载 tokenizer 和数据集。支持 HuggingFace datasets / 本地文本 / 随机数据。"""
+    # ==================== Tokenizer ====================
+    tokenizer = None
+    if args.tokenizer_path:
+        try:
+            from transformers import AutoTokenizer
+            tokenizer = AutoTokenizer.from_pretrained(args.tokenizer_path)
+            if tokenizer.pad_token is None:
+                tokenizer.pad_token = tokenizer.eos_token
+            args.vocab_size = len(tokenizer)
+            print(f"[Data] Loaded tokenizer: {args.tokenizer_path}, vocab_size={args.vocab_size}")
+        except ImportError:
+            print("[Warning] transformers not installed, falling back to SimpleTokenizer")
     
+    if tokenizer is None:
+        tokenizer = SimpleTokenizer(vocab_size=args.vocab_size)
+        print(f"[Data] Using SimpleTokenizer, vocab_size={args.vocab_size}")
+    
+    # ==================== Language Modeling ====================
     if args.task == 'lm':
-        # 语言建模：读取文本文件
-        if not args.data_path:
-            # 生成随机数据用于演示
-            tokens = torch.randint(0, args.vocab_size, (args.num_samples * args.max_seq_len,))
-            token_ids = tokens.tolist()
-        else:
-            with open(args.data_path, 'r', encoding='utf-8') as f:
-                text = f.read()
-            token_ids = tokenizer.encode(text, max_length=len(text), truncation=False)
+        token_sequences = []
         
-        n_train = int(len(token_ids) * 0.9)
-        train_dataset = TokenDataset(token_ids[:n_train], args.max_seq_len)
-        val_dataset = TokenDataset(token_ids[n_train:], args.max_seq_len) if len(token_ids) > n_train else None
+        if args.dataset_name == 'random':
+            print("[Data] Generating random data for demo")
+            token_sequences = [
+                torch.randint(0, args.vocab_size, (args.max_seq_len * 2,)).tolist()
+                for _ in range(args.num_samples)
+            ]
+        
+        elif args.dataset_name.endswith('.txt') or (args.data_path and args.data_path.endswith('.txt')):
+            path = args.dataset_name if args.dataset_name.endswith('.txt') else args.data_path
+            print(f"[Data] Loading text from {path}")
+            with open(path, 'r', encoding='utf-8') as f:
+                text = f.read()
+            
+            if hasattr(tokenizer, 'encode'):
+                token_ids = tokenizer.encode(text)
+            else:
+                token_ids = tokenizer(text)['input_ids']
+            
+            # 拆分为多个序列
+            seq_len = args.max_seq_len * 2
+            for i in range(0, len(token_ids), seq_len):
+                chunk = token_ids[i:i + seq_len]
+                if len(chunk) >= args.max_seq_len + 1:
+                    token_sequences.append(chunk)
+            print(f"[Data] Total sequences: {len(token_sequences)}")
+        
+        else:
+            # 尝试 HuggingFace datasets
+            try:
+                from datasets import load_dataset
+                ds_name = args.dataset_name
+                ds_config = args.dataset_config
+                text_col = args.text_column
+                
+                print(f"[Data] Loading HuggingFace dataset: {ds_name}")
+                if ds_config:
+                    raw_dataset = load_dataset(ds_name, ds_config)
+                else:
+                    raw_dataset = load_dataset(ds_name)
+                
+                def tokenize(examples):
+                    if hasattr(tokenizer, 'encode_batch'):
+                        return tokenizer(examples[text_col], truncation=True, max_length=args.max_seq_len * 2)
+                    return tokenizer(examples[text_col], truncation=True, max_length=args.max_seq_len * 2)
+                
+                tokenized = raw_dataset.map(tokenize, batched=True, remove_columns=raw_dataset['train'].column_names)
+                
+                for split in ['train', 'validation']:
+                    if split not in tokenized:
+                        continue
+                    for ex in tokenized[split]:
+                        if 'input_ids' in ex:
+                            token_sequences.append(ex['input_ids'])
+                
+                print(f"[Data] Loaded {len(token_sequences)} sequences from HF dataset")
+            except ImportError:
+                print("[Error] datasets library not installed. pip install datasets")
+                raise
+            except Exception as e:
+                print(f"[Error] Failed to load dataset: {e}")
+                raise
+        
+        # 构建数据集
+        n_train = int(len(token_sequences) * 0.9)
+        train_dataset = TokenDataset(token_sequences[:n_train], args.max_seq_len, is_sequences=True)
+        val_dataset = TokenDataset(token_sequences[n_train:], args.max_seq_len, is_sequences=True) if n_train < len(token_sequences) else None
         
         train_loader = DataLoader(
             train_dataset,
@@ -462,20 +573,24 @@ def load_data(args):
             shuffle=True,
             num_workers=0,
             drop_last=True,
+            collate_fn=lambda batch: lm_collate_fn(batch, pad_token_id=tokenizer.pad_token_id if hasattr(tokenizer, 'pad_token_id') else 0),
         )
-        val_loader = DataLoader(val_dataset, batch_size=args.batch_size) if val_dataset else None
+        val_loader = DataLoader(
+            val_dataset,
+            batch_size=args.batch_size,
+            drop_last=True,
+            collate_fn=lambda batch: lm_collate_fn(batch, pad_token_id=tokenizer.pad_token_id if hasattr(tokenizer, 'pad_token_id') else 0),
+        ) if val_dataset else None
     
+    # ==================== Classification ====================
     elif args.task == 'classification':
-        # 分类任务：需要用户自定义数据加载
-        # 这里生成随机数据用于演示
+        print("[Data] Generating random classification data for demo")
         texts = [f"sample text {i}" for i in range(args.num_samples)]
         labels = [i % args.num_classes for i in range(args.num_samples)]
-        
         dataset = TextClassificationDataset(texts, labels, tokenizer, args.max_seq_len)
         n_train = int(len(dataset) * 0.9)
         train_dataset = torch.utils.data.Subset(dataset, range(n_train))
         val_dataset = torch.utils.data.Subset(dataset, range(n_train, len(dataset)))
-        
         train_loader = DataLoader(train_dataset, batch_size=args.batch_size, shuffle=True)
         val_loader = DataLoader(val_dataset, batch_size=args.batch_size)
     
@@ -491,7 +606,17 @@ def main():
     
     # 任务
     parser.add_argument('--task', type=str, default='lm', choices=['lm', 'classification'])
-    parser.add_argument('--data_path', type=str, default=None)
+    parser.add_argument('--data_path', type=str, default=None, help='Local file path (.txt or .csv)')
+    
+    # 数据
+    parser.add_argument('--dataset_name', type=str, default='random',
+                        help='"random" | local .txt path | HuggingFace dataset name (e.g. wikitext, openwebtext)')
+    parser.add_argument('--dataset_config', type=str, default=None,
+                        help='HuggingFace dataset config, e.g. wikitext-2-raw-v1')
+    parser.add_argument('--text_column', type=str, default='text')
+    parser.add_argument('--tokenizer_path', type=str, default=None,
+                        help='HuggingFace tokenizer name, e.g. gpt2, bert-base-chinese')
+    parser.add_argument('--num_samples', type=int, default=1000)
     
     # 模型
     parser.add_argument('--vocab_size', type=int, default=256)
@@ -505,7 +630,8 @@ def main():
     parser.add_argument('--dropout', type=float, default=0.1)
     parser.add_argument('--num_classes', type=int, default=10)
     parser.add_argument('--tie_weights', action='store_true')
-    parser.add_argument('--log_consciousness', action='store_true')
+    parser.add_argument('--causal', action='store_true', default=True,
+                        help='Use causal masking for autoregressive LM (default: True)')
     
     # 训练
     parser.add_argument('--batch_size', type=int, default=16)
@@ -524,8 +650,7 @@ def main():
     parser.add_argument('--lambda_conscious', type=float, default=0.01)
     parser.add_argument('--target_spike_rate', type=float, default=0.2)
     
-    # 数据
-    parser.add_argument('--num_samples', type=int, default=10000)
+    # （数据参数已移至上方）
     
     # 日志和保存
     parser.add_argument('--output_dir', type=str, default='outputs/cortex')
@@ -541,7 +666,7 @@ def main():
     print("=" * 60)
     print(f"Task: {args.task}")
     print(f"Device: {args.device}")
-    print(f"Model: d_model={args.d_model}, n_layers={args.n_layers}")
+    print(f"Model: d_model={args.d_model}, n_layers={args.n_layers}, causal={args.causal}")
     print(f"Training steps: {args.total_steps}")
     print(f"Output: {args.output_dir}")
     print("=" * 60)

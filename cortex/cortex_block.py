@@ -45,6 +45,7 @@ class CORTEXBlock(nn.Module):
         use_predictive=True,
         use_multiscale=True,
         use_spike=True,
+        causal=True,
     ):
         super().__init__()
         self.d_model = d_model
@@ -52,6 +53,7 @@ class CORTEXBlock(nn.Module):
         self.use_predictive = use_predictive
         self.use_multiscale = use_multiscale
         self.use_spike = use_spike
+        self.causal = causal
         
         # 1. Multi-timescale processing
         if use_multiscale:
@@ -108,18 +110,24 @@ class CORTEXBlock(nn.Module):
         
         self.dropout = nn.Dropout(dropout)
     
-    def forward(self, x, multiscale_states=None, return_info=False):
+    def forward(self, x, multiscale_states=None, return_info=False, causal=None):
         """
         Args:
             x: (batch, seq_len, d_model)
             multiscale_states: list of states for multiscale layer
             return_info: whether to return intermediate info
+            causal: whether to enforce causality (default from init)
         Returns:
             out: (batch, seq_len, d_model)
             new_states: multiscale states
             info: dict with intermediate values
         """
+        causal = self.causal if causal is None else causal
         info = {}
+        # CORTEX architecture is inherently causal:
+        # - MultiTimescaleStateLayer processes sequentially (RNN-style)
+        # - DCU and Workspace operate position-wise independently
+        # The causal flag is passed for explicit documentation and future extensions.
         
         # Step 1: Multi-timescale processing
         if self.use_multiscale and self.multiscale is not None:

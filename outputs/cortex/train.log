@@ -1,0 +1,15 @@
+[2026-05-30 18:20:32] [Curriculum] Stage 0: Continuous-only warm-up
+[2026-05-30 18:20:32] Model parameters: 1,721,381
+[2026-05-30 18:20:32] Training device: cuda
+[2026-05-30 18:20:32] Epoch 1 started
+[2026-05-30 18:20:36] Epoch 2 started
+[2026-05-30 18:20:39] [Curriculum] Stage 1: Introducing spikes
+[2026-05-30 18:20:41] Epoch 3 started
+[2026-05-30 18:20:42] Step 50/100 | Loss: 5.5702 | LR: 1.00e-04 | Stage: 1 | Spike: 0.478
+[2026-05-30 18:20:46] [Curriculum] Stage 2: Full multi-objective training
+[2026-05-30 18:20:46] Epoch 4 started
+[2026-05-30 18:20:51] Epoch 5 started
+[2026-05-30 18:20:54] Step 100/100 | Loss: 5.5616 | LR: 2.00e-04 | Stage: 2 | Spike: 0.486
+[2026-05-30 18:20:54] Validation Loss: 5.5950
+[2026-05-30 18:20:54] Saved best checkpoint
+[2026-05-30 18:20:54] Training completed!

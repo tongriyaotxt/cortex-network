@@ -80,6 +80,7 @@ class CORTEXModel(nn.Module):
         tie_weights=False,
         num_classes=None,  # For classification tasks
         consciousness_output=False,  # Return consciousness state
+        causal=True,  # True for GPT-style, False for BERT-style
     ):
         super().__init__()
         self.vocab_size = vocab_size
@@ -87,6 +88,7 @@ class CORTEXModel(nn.Module):
         self.n_layers = n_layers
         self.max_seq_len = max_seq_len
         self.consciousness_output = consciousness_output
+        self.causal = causal
         
         # Embeddings
         self.token_embedding = nn.Embedding(vocab_size, d_model)
@@ -104,6 +106,7 @@ class CORTEXModel(nn.Module):
                 timescales=timescales,
                 spike_dim_ratio=spike_dim_ratio,
                 dropout=dropout,
+                causal=causal,
             )
             for _ in range(n_layers)
         ])
@@ -154,7 +157,9 @@ class CORTEXModel(nn.Module):
         labels=None,
         return_consciousness=False,
         return_all_info=False,
+        causal=None,
     ):
+        causal = self.causal if causal is None else causal
         """
         Args:
             input_ids: (batch, seq_len) token indices
@@ -183,6 +188,13 @@ class CORTEXModel(nn.Module):
             # attention_mask: (batch, seq_len) with 1 for valid, 0 for masked
             mask = attention_mask.unsqueeze(-1).float()
             x = x * mask
+        
+        # Note: CORTEX is inherently causal due to:
+        # - MultiTimescaleStateLayer: RNN-style sequential processing
+        # - DendriticComputationUnit: position-wise independent computation
+        # - GlobalWorkspaceLayer: per-position competition and aggregation
+        # The `causal` flag serves as explicit documentation and future extension point
+        # for hybrid architectures that may incorporate standard attention heads.
         
         # Pass through CORTEX layers
         h = x
@@ -302,8 +314,12 @@ class CORTEXModel(nn.Module):
         device = input_ids.device
         
         for _ in range(max_new_tokens):
-            # Forward pass
-            outputs = self.forward(input_ids)
+            # Truncate to max_seq_len if needed
+            if input_ids.size(1) > self.max_seq_len:
+                input_ids = input_ids[:, -self.max_seq_len:]
+            
+            # Forward pass (autoregressive: only see past tokens)
+            outputs = self.forward(input_ids, causal=True)
             logits = outputs['logits']
             
             # Get next token logits
