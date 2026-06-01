@@ -110,13 +110,14 @@ class CORTEXBlock(nn.Module):
         
         self.dropout = nn.Dropout(dropout)
     
-    def forward(self, x, multiscale_states=None, return_info=False, causal=None):
+    def forward(self, x, multiscale_states=None, return_info=False, causal=None, branch_mask=None):
         """
         Args:
             x: (batch, seq_len, d_model)
             multiscale_states: list of states for multiscale layer
             return_info: whether to return intermediate info
             causal: whether to enforce causality (default from init)
+            branch_mask: (n_branches,) optional mask for DCU branches (M5)
         Returns:
             out: (batch, seq_len, d_model)
             new_states: multiscale states
@@ -144,7 +145,7 @@ class CORTEXBlock(nn.Module):
                 info['spike_rate'] = spike_info['spike_rate']
         
         # Step 3: Dendritic attention (with residual)
-        h_attn = self.dendritic_attn(h, return_spike=False, return_continuous=True)
+        h_attn = self.dendritic_attn(h, return_spike=False, return_continuous=True, branch_mask=branch_mask)
         h = self.norm1(h + self.dropout(h_attn))
         
         # Step 4: Global workspace

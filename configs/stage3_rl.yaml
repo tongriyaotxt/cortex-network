@@ -1,0 +1,57 @@
+# 阶段 3：具身交互 + 层次规划
+# 使用 RL 环境数据或轨迹数据训练 M3/M4
+
+# 从阶段 2 恢复
+resume: outputs/stage2_reasoning/best.pt
+
+task: lm
+data_path: data/rl_trajectories.txt  # 需要先用环境生成
+seq_len: 256
+batch_size: 8
+
+# 模型配置
+vocab_size: 32000
+d_model: 512
+n_layers: 8
+n_modules: 8
+workspace_dim: 256
+n_branches: 4
+n_timescales: 3
+max_seq_len: 2048
+dropout: 0.1
+
+# AGI 模块：开启 M1-M4
+use_symbolic: true
+use_self_modeling: true
+use_embodied: true
+use_hierarchical: true
+use_continual: false
+use_causal: false
+
+# 配置
+symbolic_vocab_size: 1024
+n_subroutines: 8
+memory_capacity: 10000
+max_goal_depth: 5
+
+# 损失权重
+lambda_symbolic: 0.03
+lambda_self: 0.03
+lambda_action: 0.1
+lambda_plasticity: 0.0
+
+# 训练配置
+lr: 0.0001
+weight_decay: 0.01
+total_steps: 50000
+warmup_steps: 2000
+max_grad_norm: 1.0
+use_scheduler: true
+use_amp: true
+curriculum: false
+
+# 日志
+output_dir: outputs/stage3_rl
+log_interval: 100
+val_interval: 5000
+save_interval: 20000

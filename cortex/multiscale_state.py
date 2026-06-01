@@ -195,7 +195,7 @@ class MultiTimescaleStateLayer(nn.Module):
             # Update this timescale
             h_trace = unit(x_s, h_prev, h_other)
             scale_outputs.append(h_trace)
-            new_states.append(h_trace[:, -1, :].detach())  # Final state
+            new_states.append(h_trace[:, -1, :])  # Final state (keep gradient for training)
         
         # Concatenate all timescales
         combined = torch.cat(scale_outputs, dim=-1)  # (batch, seq_len, d_model)
@@ -231,6 +231,6 @@ class MultiTimescaleStateLayer(nn.Module):
             
             h_trace = unit(x_s, h_prev, h_other)
             scale_outputs.append(h_trace)
-            new_states.append(h_trace[:, -1, :].detach())
+            new_states.append(h_trace[:, -1, :])
         
         return scale_outputs, new_states

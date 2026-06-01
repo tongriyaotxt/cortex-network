@@ -1,0 +1,42 @@
+# CORTEX 阶段 0：基础架构热身
+# 目标：验证核心组件正常工作
+
+task: lm
+data_path: data/wikitext/train.txt
+seq_len: 128
+batch_size: 16
+
+# 模型配置（小模型快速验证）
+vocab_size: 10000
+d_model: 252
+n_layers: 4
+n_modules: 4
+workspace_dim: 126
+n_branches: 4
+n_timescales: 3
+max_seq_len: 512
+dropout: 0.1
+
+# AGI 模块：全部关闭
+use_symbolic: false
+use_self_modeling: false
+use_embodied: false
+use_hierarchical: false
+use_continual: false
+use_causal: false
+
+# 训练配置
+lr: 0.001
+weight_decay: 0.01
+total_steps: 10000
+warmup_steps: 1000
+max_grad_norm: 1.0
+use_scheduler: true
+use_amp: false
+curriculum: false
+
+# 日志
+output_dir: outputs/stage0_base
+log_interval: 100
+val_interval: 1000
+save_interval: 5000

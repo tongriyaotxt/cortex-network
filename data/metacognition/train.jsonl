@@ -1,0 +1,1000 @@
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一年有多少个月？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.98, "expected_answer": "12", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：71 × 24 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "1704", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：How many legs does a dog have?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.96, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：33 + 75 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "108", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：99 × 88 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "8712", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：How many legs does a dog have?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.96, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：62 - 84 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "-22", "is_trap": false, "type": "metacognition"}
+{"input": "问题：How many legs does a dog have?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.96, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：22 - 33 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "-11", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：36 + 89 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "125", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：92 + 28 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "120", "is_trap": false, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：48 + 43 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "91", "is_trap": false, "type": "metacognition"}
+{"input": "问题：38 × 56 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "2128", "is_trap": true, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：22 × 50 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "1100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：How many legs does a dog have?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.96, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：17 - 46 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "-29", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：How many legs does a dog have?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.96, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一年有多少个月？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.98, "expected_answer": "12", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：49 × 29 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "1421", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：How many legs does a dog have?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.96, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一年有多少个月？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.98, "expected_answer": "12", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：16 - 82 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "-66", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：13 × 49 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "637", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.5499999999999999, "expected_answer": "4", "is_trap": true, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：How many legs does a dog have?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.96, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：69 + 44 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "113", "is_trap": false, "type": "metacognition"}
+{"input": "问题：How many legs does a dog have?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.96, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一年有多少个月？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.98, "expected_answer": "12", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.52, "expected_answer": "100", "is_trap": true, "type": "metacognition"}
+{"input": "问题：19 × 88 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "1672", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：How many legs does a dog have?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.96, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：35 - 99 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "-64", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：80 + 51 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "131", "is_trap": false, "type": "metacognition"}
+{"input": "问题：36 + 60 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "96", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一年有多少个月？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.98, "expected_answer": "12", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：How many legs does a dog have?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.5599999999999999, "expected_answer": "4", "is_trap": true, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.57, "expected_answer": "东方", "is_trap": true, "type": "metacognition"}
+{"input": "问题：一年有多少个月？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.98, "expected_answer": "12", "is_trap": false, "type": "metacognition"}
+{"input": "问题：20 + 49 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "69", "is_trap": false, "type": "metacognition"}
+{"input": "问题：How many legs does a dog have?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.96, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：How many legs does a dog have?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.96, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一年有多少个月？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.98, "expected_answer": "12", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：How many legs does a dog have?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.96, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：How many legs does a dog have?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.96, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：How many legs does a dog have?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.96, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：How many legs does a dog have?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.96, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：33 + 22 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "55", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：61 + 14 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "75", "is_trap": true, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：80 - 62 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "18", "is_trap": true, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.5499999999999999, "expected_answer": "Paris", "is_trap": true, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：98 + 28 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "126", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：72 × 50 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "3600", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：96 + 62 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "158", "is_trap": false, "type": "metacognition"}
+{"input": "问题：96 × 26 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "2496", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：84 × 55 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "4620", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.5499999999999999, "expected_answer": "4", "is_trap": true, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：69 + 68 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "137", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.5499999999999999, "expected_answer": "4", "is_trap": true, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一年有多少个月？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.98, "expected_answer": "12", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一年有多少个月？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.98, "expected_answer": "12", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.52, "expected_answer": "100", "is_trap": true, "type": "metacognition"}
+{"input": "问题：一年有多少个月？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.58, "expected_answer": "12", "is_trap": true, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一年有多少个月？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.98, "expected_answer": "12", "is_trap": false, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：77 × 11 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "847", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.5499999999999999, "expected_answer": "4", "is_trap": true, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.52, "expected_answer": "100", "is_trap": true, "type": "metacognition"}
+{"input": "问题：62 × 80 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "4960", "is_trap": false, "type": "metacognition"}
+{"input": "问题：58 + 12 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "70", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：42 + 72 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "114", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：10 + 26 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "36", "is_trap": false, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.5499999999999999, "expected_answer": "4", "is_trap": true, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一年有多少个月？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.98, "expected_answer": "12", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一年有多少个月？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.98, "expected_answer": "12", "is_trap": false, "type": "metacognition"}
+{"input": "问题：How many legs does a dog have?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.96, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：31 + 88 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "119", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.5499999999999999, "expected_answer": "Paris", "is_trap": true, "type": "metacognition"}
+{"input": "问题：一年有多少个月？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.98, "expected_answer": "12", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：How many legs does a dog have?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.96, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：42 - 31 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "11", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：74 × 52 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "3848", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：71 × 79 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "5609", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：78 × 42 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "3276", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：85 + 44 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "129", "is_trap": true, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：14 + 16 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "30", "is_trap": false, "type": "metacognition"}
+{"input": "问题：74 - 45 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "29", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：24 × 41 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "984", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：How many legs does a dog have?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.96, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：67 - 97 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "-30", "is_trap": true, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：38 + 22 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "60", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：How many legs does a dog have?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.96, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：How many legs does a dog have?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.96, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：53 × 91 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "4823", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：How many legs does a dog have?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.96, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：38 - 92 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "-54", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一年有多少个月？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.98, "expected_answer": "12", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：44 × 29 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "1276", "is_trap": false, "type": "metacognition"}
+{"input": "问题：37 × 73 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "2701", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.52, "expected_answer": "100", "is_trap": true, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：29 × 37 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "1073", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：85 × 34 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "2890", "is_trap": false, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.5499999999999999, "expected_answer": "4", "is_trap": true, "type": "metacognition"}
+{"input": "问题：一年有多少个月？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.98, "expected_answer": "12", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.5499999999999999, "expected_answer": "4", "is_trap": true, "type": "metacognition"}
+{"input": "问题：82 - 64 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "18", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：42 - 29 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "13", "is_trap": true, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：How many legs does a dog have?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.96, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一年有多少个月？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.98, "expected_answer": "12", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：40 × 18 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "720", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：How many legs does a dog have?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.96, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：43 - 93 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "-50", "is_trap": true, "type": "metacognition"}
+{"input": "问题：87 + 20 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "107", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一年有多少个月？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.98, "expected_answer": "12", "is_trap": false, "type": "metacognition"}
+{"input": "问题：95 + 83 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "178", "is_trap": false, "type": "metacognition"}
+{"input": "问题：How many legs does a dog have?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.96, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.5499999999999999, "expected_answer": "4", "is_trap": true, "type": "metacognition"}
+{"input": "问题：36 + 73 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "109", "is_trap": false, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：61 - 14 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "47", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：92 × 79 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "7268", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：81 + 38 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "119", "is_trap": true, "type": "metacognition"}
+{"input": "问题：67 - 62 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "5", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一年有多少个月？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.98, "expected_answer": "12", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一年有多少个月？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.98, "expected_answer": "12", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：How many legs does a dog have?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.5599999999999999, "expected_answer": "4", "is_trap": true, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一年有多少个月？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.98, "expected_answer": "12", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：93 + 52 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "145", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：69 + 97 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "166", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：88 × 45 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "3960", "is_trap": false, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：68 - 26 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "42", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：98 - 43 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "55", "is_trap": false, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：29 - 40 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "-11", "is_trap": true, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一年有多少个月？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.98, "expected_answer": "12", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：46 + 94 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "140", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：45 + 98 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "143", "is_trap": true, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.57, "expected_answer": "东方", "is_trap": true, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：How many legs does a dog have?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.96, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一年有多少个月？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.98, "expected_answer": "12", "is_trap": false, "type": "metacognition"}
+{"input": "问题：57 × 48 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "2736", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：42 - 62 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "-20", "is_trap": false, "type": "metacognition"}
+{"input": "问题：97 × 72 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "6984", "is_trap": true, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：38 + 87 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "125", "is_trap": false, "type": "metacognition"}
+{"input": "问题：How many legs does a dog have?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.96, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.5499999999999999, "expected_answer": "Paris", "is_trap": true, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.57, "expected_answer": "东方", "is_trap": true, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：67 + 53 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "120", "is_trap": true, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：31 + 82 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "113", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一年有多少个月？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.98, "expected_answer": "12", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.57, "expected_answer": "东方", "is_trap": true, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：How many legs does a dog have?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.96, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：68 × 12 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "816", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：86 - 51 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "35", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：How many legs does a dog have?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.96, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：How many legs does a dog have?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.5599999999999999, "expected_answer": "4", "is_trap": true, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一年有多少个月？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.98, "expected_answer": "12", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一年有多少个月？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.98, "expected_answer": "12", "is_trap": false, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：How many legs does a dog have?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.96, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：65 + 72 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "137", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：How many legs does a dog have?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.96, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一年有多少个月？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.98, "expected_answer": "12", "is_trap": false, "type": "metacognition"}
+{"input": "问题：36 × 75 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "2700", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一年有多少个月？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.98, "expected_answer": "12", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：46 + 61 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "107", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：33 - 39 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "-6", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：How many legs does a dog have?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.96, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：73 - 34 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "39", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：18 × 19 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "342", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一年有多少个月？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.98, "expected_answer": "12", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：46 × 92 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "4232", "is_trap": false, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：79 - 28 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "51", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：How many legs does a dog have?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.96, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一年有多少个月？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.98, "expected_answer": "12", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：89 × 72 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "6408", "is_trap": false, "type": "metacognition"}
+{"input": "问题：93 + 28 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "121", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一年有多少个月？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.98, "expected_answer": "12", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：37 - 51 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "-14", "is_trap": true, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一年有多少个月？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.98, "expected_answer": "12", "is_trap": false, "type": "metacognition"}
+{"input": "问题：98 × 59 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "5782", "is_trap": false, "type": "metacognition"}
+{"input": "问题：80 - 16 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "64", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：50 - 65 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "-15", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：73 × 15 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "1095", "is_trap": false, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：62 × 56 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "3472", "is_trap": false, "type": "metacognition"}
+{"input": "问题：71 + 30 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "101", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：61 + 39 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "100", "is_trap": true, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一年有多少个月？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.98, "expected_answer": "12", "is_trap": false, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：How many legs does a dog have?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.96, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一年有多少个月？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.98, "expected_answer": "12", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.5499999999999999, "expected_answer": "4", "is_trap": true, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：How many legs does a dog have?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.96, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.57, "expected_answer": "东方", "is_trap": true, "type": "metacognition"}
+{"input": "问题：81 + 35 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "116", "is_trap": false, "type": "metacognition"}
+{"input": "问题：17 × 92 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "1564", "is_trap": true, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：How many legs does a dog have?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.96, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.5499999999999999, "expected_answer": "4", "is_trap": true, "type": "metacognition"}
+{"input": "问题：83 × 18 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "1494", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：How many legs does a dog have?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.96, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一年有多少个月？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.98, "expected_answer": "12", "is_trap": false, "type": "metacognition"}
+{"input": "问题：79 × 98 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "7742", "is_trap": true, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：38 + 70 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "108", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一年有多少个月？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.98, "expected_answer": "12", "is_trap": false, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：66 × 11 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "726", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：93 + 34 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "127", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：38 + 54 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "92", "is_trap": false, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：43 - 56 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "-13", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：43 - 14 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "29", "is_trap": false, "type": "metacognition"}
+{"input": "问题：How many legs does a dog have?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.96, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.5499999999999999, "expected_answer": "4", "is_trap": true, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：How many legs does a dog have?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.96, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一年有多少个月？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.98, "expected_answer": "12", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：How many legs does a dog have?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.96, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：57 × 66 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "3762", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：42 + 62 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "104", "is_trap": false, "type": "metacognition"}
+{"input": "问题：How many legs does a dog have?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.96, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：How many legs does a dog have?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.96, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一年有多少个月？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.98, "expected_answer": "12", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一年有多少个月？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.98, "expected_answer": "12", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一年有多少个月？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.98, "expected_answer": "12", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一年有多少个月？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.58, "expected_answer": "12", "is_trap": true, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：27 × 20 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "540", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：46 - 31 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "15", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一年有多少个月？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.98, "expected_answer": "12", "is_trap": false, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：How many legs does a dog have?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.96, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.57, "expected_answer": "东方", "is_trap": true, "type": "metacognition"}
+{"input": "问题：19 × 96 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "1824", "is_trap": true, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一年有多少个月？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.98, "expected_answer": "12", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.52, "expected_answer": "100", "is_trap": true, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一年有多少个月？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.98, "expected_answer": "12", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：70 × 47 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "3290", "is_trap": false, "type": "metacognition"}
+{"input": "问题：93 × 82 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "7626", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一年有多少个月？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.98, "expected_answer": "12", "is_trap": false, "type": "metacognition"}
+{"input": "问题：53 - 74 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "-21", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一年有多少个月？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.98, "expected_answer": "12", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一年有多少个月？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.98, "expected_answer": "12", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一年有多少个月？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.98, "expected_answer": "12", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一年有多少个月？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.98, "expected_answer": "12", "is_trap": false, "type": "metacognition"}
+{"input": "问题：85 - 14 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "71", "is_trap": false, "type": "metacognition"}
+{"input": "问题：99 × 87 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "8613", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一年有多少个月？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.98, "expected_answer": "12", "is_trap": false, "type": "metacognition"}
+{"input": "问题：How many legs does a dog have?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.5599999999999999, "expected_answer": "4", "is_trap": true, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：22 × 61 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "1342", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一年有多少个月？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.98, "expected_answer": "12", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.5499999999999999, "expected_answer": "Paris", "is_trap": true, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：How many legs does a dog have?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.96, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一年有多少个月？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.98, "expected_answer": "12", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：34 × 38 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "1292", "is_trap": false, "type": "metacognition"}
+{"input": "问题：54 × 95 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "5130", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：How many legs does a dog have?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.96, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：91 + 68 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "159", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：How many legs does a dog have?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.96, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.52, "expected_answer": "100", "is_trap": true, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：79 - 12 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "67", "is_trap": true, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.52, "expected_answer": "100", "is_trap": true, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：How many legs does a dog have?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.96, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：13 - 47 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "-34", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：86 - 48 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "38", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一年有多少个月？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.98, "expected_answer": "12", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：98 + 19 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "117", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：80 + 95 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "175", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一年有多少个月？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.98, "expected_answer": "12", "is_trap": false, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：63 × 21 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "1323", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：How many legs does a dog have?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.96, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：84 - 32 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "52", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.57, "expected_answer": "东方", "is_trap": true, "type": "metacognition"}
+{"input": "问题：56 + 89 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "145", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一年有多少个月？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.98, "expected_answer": "12", "is_trap": false, "type": "metacognition"}
+{"input": "问题：57 - 92 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "-35", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：How many legs does a dog have?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.96, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.5499999999999999, "expected_answer": "Paris", "is_trap": true, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：34 × 39 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "1326", "is_trap": false, "type": "metacognition"}
+{"input": "问题：86 × 26 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "2236", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：38 × 48 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "1824", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：52 + 27 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "79", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：10 + 81 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "91", "is_trap": false, "type": "metacognition"}
+{"input": "问题：How many legs does a dog have?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.96, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：72 + 23 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "95", "is_trap": false, "type": "metacognition"}
+{"input": "问题：How many legs does a dog have?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.96, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：How many legs does a dog have?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.96, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：How many legs does a dog have?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.96, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：33 - 67 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "-34", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一年有多少个月？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.98, "expected_answer": "12", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一年有多少个月？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.98, "expected_answer": "12", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一年有多少个月？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.98, "expected_answer": "12", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一年有多少个月？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.98, "expected_answer": "12", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：78 - 63 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "15", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：How many legs does a dog have?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.96, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.57, "expected_answer": "东方", "is_trap": true, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：40 + 53 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "93", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.5499999999999999, "expected_answer": "Paris", "is_trap": true, "type": "metacognition"}
+{"input": "问题：45 + 27 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "72", "is_trap": false, "type": "metacognition"}
+{"input": "问题：49 + 44 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "93", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：76 - 98 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "-22", "is_trap": false, "type": "metacognition"}
+{"input": "问题：约翰的叔叔的妻子的姐姐的女儿叫什么名字？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.5499999999999999, "expected_answer": "4", "is_trap": true, "type": "metacognition"}
+{"input": "问题：2 + 2 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.5499999999999999, "expected_answer": "Paris", "is_trap": true, "type": "metacognition"}
+{"input": "问题：一年有多少个月？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.98, "expected_answer": "12", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：How many legs does a dog have?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.96, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：66 + 76 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "142", "is_trap": false, "type": "metacognition"}
+{"input": "问题：一年有多少个月？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.98, "expected_answer": "12", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：明年的今天股市会涨吗？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "无法预测", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：60 × 24 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "1440", "is_trap": false, "type": "metacognition"}
+{"input": "问题：How many legs does a dog have?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.96, "expected_answer": "4", "is_trap": false, "type": "metacognition"}
+{"input": "问题：如果所有 A 都是 B，那么有多少个 B？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.25, "expected_answer": "信息不足，无法确定", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.5499999999999999, "expected_answer": "Paris", "is_trap": true, "type": "metacognition"}
+{"input": "问题：一个没有上下文的汉字'行'是什么意思？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.2, "expected_answer": "可能是'可以'或'走路'，需要更多上下文", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What did my neighbor eat for breakfast yesterday?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.15, "expected_answer": "I don't have this information", "is_trap": false, "type": "metacognition"}
+{"input": "问题：15 × 14 = ?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.65, "expected_answer": "210", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：太阳从哪个方向升起？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.97, "expected_answer": "东方", "is_trap": false, "type": "metacognition"}
+{"input": "问题：Is there life on planet XYZ-42?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.1, "expected_answer": "Unknown, insufficient data", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}
+{"input": "问题：水的沸点是多少摄氏度？\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.92, "expected_answer": "100", "is_trap": false, "type": "metacognition"}
+{"input": "问题：What is the capital of France?\n请先评估你的确定性（0-1），然后回答。", "expected_certainty": 0.95, "expected_answer": "Paris", "is_trap": false, "type": "metacognition"}

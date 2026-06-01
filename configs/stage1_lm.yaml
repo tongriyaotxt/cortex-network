@@ -1,0 +1,42 @@
+# 阶段 1：基础语言模型预训练
+# 目标：在大语料上训练核心 CORTEX 的语言能力
+
+task: lm
+data_path: data/wikitext/train.txt
+seq_len: 512
+batch_size: 8
+
+# 模型配置（中等规模）
+vocab_size: 32000
+d_model: 512
+n_layers: 8
+n_modules: 8
+workspace_dim: 256
+n_branches: 4
+n_timescales: 3
+max_seq_len: 2048
+dropout: 0.1
+
+# AGI 模块：全部关闭（专注语言）
+use_symbolic: false
+use_self_modeling: false
+use_embodied: false
+use_hierarchical: false
+use_continual: false
+use_causal: false
+
+# 训练配置
+lr: 0.0003
+weight_decay: 0.01
+total_steps: 100000
+warmup_steps: 5000
+max_grad_norm: 1.0
+use_scheduler: true
+use_amp: true
+curriculum: false
+
+# 日志
+output_dir: outputs/stage1_lm
+log_interval: 100
+val_interval: 5000
+save_interval: 20000

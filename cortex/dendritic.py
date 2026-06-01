@@ -40,6 +40,13 @@ class DendriticBranch(nn.Module):
         elif branch_type == 'modulatory':
             # Gating/modulatory branch (like neuromodulators)
             self.nonlin = nn.Sigmoid()
+        elif branch_type == 'symbolic':
+            # Symbolic quantization branch (M1)
+            self.nonlin = nn.Identity()  # linear projection handled by SymbolicBranch
+        elif branch_type == 'structural_equation':
+            # Causal structural equation branch (M6)
+            # Will use separate forward logic in DendriticComputationUnit
+            self.nonlin = nn.Identity()
         else:
             self.nonlin = nn.Tanh()
     
@@ -169,12 +176,13 @@ class DendriticComputationUnit(nn.Module):
         if self.somatic_linear.bias is not None:
             nn.init.zeros_(self.somatic_linear.bias)
     
-    def forward(self, x, return_spike=True, return_continuous=False):
+    def forward(self, x, return_spike=True, return_continuous=False, branch_mask=None):
         """
         Args:
             x: (batch, seq_len, d_in) or (batch, d_in)
             return_spike: whether to return spike output
             return_continuous: whether to return continuous somatic potential
+            branch_mask: (n_branches,) optional mask to zero-out branches (M5)
         Returns:
             Depending on flags, returns spike and/or continuous output
         """
@@ -185,6 +193,17 @@ class DendriticComputationUnit(nn.Module):
         
         # Softmax-weighted branch combination
         branch_weights = F.softmax(self.branch_weights, dim=0)
+        
+        # Apply branch mask if provided (M5 continual learning)
+        if branch_mask is not None:
+            if branch_mask.dim() == 1:
+                branch_mask = branch_mask.to(branch_weights.device)
+                effective_weights = branch_weights * branch_mask
+                # Renormalize if any branch is active
+                weight_sum = effective_weights.sum()
+                if weight_sum > 1e-6:
+                    effective_weights = effective_weights / weight_sum
+                branch_weights = effective_weights
         
         # Weighted concatenation
         weighted_branches = []
