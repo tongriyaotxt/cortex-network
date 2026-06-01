@@ -11,7 +11,7 @@ batch_size: 8
 
 # 模型配置（继承阶段 1）
 vocab_size: 32000
-d_model: 512
+d_model: 510
 n_layers: 8
 n_modules: 8
 workspace_dim: 256

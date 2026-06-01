@@ -34,7 +34,7 @@ from datetime import datetime
 import torch
 import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
-from torch.cuda.amp import autocast, GradScaler
+from torch.amp import autocast, GradScaler
 
 # 添加项目根目录到路径
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -191,7 +191,7 @@ class Trainer:
             )
         
         # 混合精度
-        self.scaler = GradScaler() if args.use_amp else None
+        self.scaler = GradScaler('cuda') if args.use_amp else None
         
         # 多目标损失权重
         self.lambda_pred = 0.0
@@ -315,7 +315,7 @@ class Trainer:
         
         # 混合精度前向
         if self.scaler:
-            with autocast():
+            with autocast('cuda'):
                 outputs = self.model(
                     inputs,
                     labels=labels,
@@ -514,9 +514,9 @@ def load_data(args):
                 text = f.read()
             
             if hasattr(tokenizer, 'encode'):
-                token_ids = tokenizer.encode(text)
+                token_ids = tokenizer.encode(text, max_length=None, truncation=False)
             else:
-                token_ids = tokenizer(text)['input_ids']
+                token_ids = tokenizer(text, truncation=False)['input_ids']
             
             # 拆分为多个序列
             seq_len = args.max_seq_len * 2

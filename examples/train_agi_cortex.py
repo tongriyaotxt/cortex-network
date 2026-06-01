@@ -37,7 +37,7 @@ from datetime import datetime
 import torch
 import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
-from torch.cuda.amp import autocast, GradScaler
+from torch.amp import autocast, GradScaler
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
@@ -135,7 +135,7 @@ class JsonlDataset(Dataset):
                             text = json.dumps(obj, ensure_ascii=False)
                     else:
                         text = str(obj)
-                    tokens = tokenizer.encode(text)
+                    tokens = tokenizer.encode(text, max_length=None, truncation=False)
                     # 切分为 (input, label) 对
                     for i in range(0, max(1, len(tokens) - seq_len), seq_len // 2):
                         chunk = tokens[i:i + seq_len + 1]
@@ -199,7 +199,7 @@ class AGICORTEXTrainer:
         with open(self.output_dir / 'config.json', 'w') as f:
             json.dump(vars(args), f, indent=2)
         
-        self.log_file = open(self.output_dir / 'train.log', 'w')
+        self.log_file = open(self.output_dir / 'train.log', 'a')
         
         # 构建模型
         self.model = self._build_model()
@@ -223,7 +223,7 @@ class AGICORTEXTrainer:
             )
         
         # 混合精度
-        self.scaler = GradScaler() if args.use_amp else None
+        self.scaler = GradScaler('cuda') if args.use_amp else None
         
         # 课程学习阶段
         self.curriculum_stage = 0
@@ -323,7 +323,7 @@ class AGICORTEXTrainer:
         self.optimizer.zero_grad()
         
         if self.scaler is not None:
-            with autocast():
+            with autocast('cuda'):
                 outputs = self.model(
                     input_ids,
                     attention_mask=attention_mask,
@@ -398,7 +398,20 @@ class AGICORTEXTrainer:
         self.model.load_state_dict(ckpt['model'])
         self.optimizer.load_state_dict(ckpt['optimizer'])
         if self.scheduler and ckpt.get('scheduler'):
-            self.scheduler.load_state_dict(ckpt['scheduler'])
+            sched_state = ckpt['scheduler']
+            # Guard against corrupted scheduler state (e.g. T_max=0 from race conditions)
+            if sched_state.get('T_max', 0) > 0:
+                self.scheduler.load_state_dict(sched_state)
+                self._log(f"Loaded scheduler state (T_max={sched_state['T_max']})")
+            else:
+                self._log(f"WARNING: skipping corrupted scheduler state (T_max={sched_state.get('T_max', 'N/A')}), recreating scheduler")
+                # Recreate scheduler with correct T_max based on remaining steps
+                remaining_steps = self.args.total_steps - self.args.warmup_steps
+                self.scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(
+                    self.optimizer,
+                    T_max=remaining_steps,
+                    eta_min=self.args.lr * 0.01,
+                )
         if self.scaler and ckpt.get('scaler'):
             self.scaler.load_state_dict(ckpt['scaler'])
         self.global_step = ckpt.get('global_step', 0)
@@ -484,7 +497,7 @@ def load_data(args):
         else:
             with open(args.data_path, 'r', encoding='utf-8') as f:
                 text = f.read()
-            tokens = tokenizer.encode(text)
+            tokens = tokenizer.encode(text, max_length=None, truncation=False)
             
             # 划分训练/验证
             split = int(len(tokens) * 0.95)

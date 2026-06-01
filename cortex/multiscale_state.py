@@ -61,28 +61,36 @@ class TimescaleUnit(nn.Module):
         """
         batch, seq_len, d = x.shape
         device = x.device
+        dtype = x.dtype
+        decay = self.decay.item()
         
+        # Fast vectorized path (used in standard CORTEX where h_other is always provided)
+        if h_other is not None:
+            h_other_exp = h_other.unsqueeze(1).expand(-1, seq_len, -1)
+            combined = torch.cat([x, h_other_exp], dim=-1)
+            updates = self.update_fn(combined)  # (batch, seq_len, d)
+            
+            # Closed-form unroll of h_t = decay * h_{t-1} + (1-decay) * updates_{t-1}
+            # h_t = decay^t * h_0 + (1-decay) * sum_{k=0}^{t-1} decay^{t-1-k} * updates_k
+            inv_decay = 1.0 / decay
+            inv_decay_powers = inv_decay ** torch.arange(seq_len, device=device, dtype=dtype)
+            v = updates * inv_decay_powers.view(1, seq_len, 1) * (1.0 - decay)
+            prefix = torch.cumsum(v, dim=1)
+            
+            decay_powers = decay ** torch.arange(1, seq_len + 1, device=device, dtype=dtype)
+            h_trace = h_prev.unsqueeze(1) * decay_powers.view(1, seq_len, 1) + prefix * (decay_powers / decay).view(1, seq_len, 1)
+            return h_trace
+        
+        # Fallback sequential path (rarely used)
         h = h_prev
         h_trace = []
-        
         for t in range(seq_len):
             x_t = x[:, t, :]
-            
-            # Combine input with other timescale
-            if h_other is not None:
-                combined = torch.cat([x_t, h_other], dim=-1)
-            else:
-                combined = torch.cat([x_t, h], dim=-1)
-            
-            # Compute update
+            combined = torch.cat([x_t, h], dim=-1)
             update = self.update_fn(combined)
-            
-            # Leaky integration
             h = self.decay * h + (1.0 - self.decay) * update
-            
             h_trace.append(h)
-        
-        h_trace = torch.stack(h_trace, dim=1)  # (batch, seq_len, d)
+        h_trace = torch.stack(h_trace, dim=1)
         return h_trace
 
 
