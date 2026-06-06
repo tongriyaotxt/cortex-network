@@ -53,3 +53,9 @@ type
 
 # Tokenizer outputs
 data/tokenizer/
+
+# Root-level debug tests (not pytest)
+test_forward.py
+test_layer_debug.py
+test_nan.py
+test_nan_debug.py
