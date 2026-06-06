@@ -1,0 +1,55 @@
+# Stage 3: 具身交互 + 层次规划 (M3 + M4)
+# 从 Stage 2 恢复，开启 M1-M4
+
+resume: outputs/stage2_agi/best.pt
+
+task: lm
+data_path: data_v3/stage3_rl/train.txt
+val_data_path: data_v3/stage3_rl/val.txt
+seq_len: 256
+batch_size: 8
+
+# Tokenizer
+tokenizer_path: data/tokenizer/bpe_4096.json
+tokenizer_type: bpe
+
+# 模型配置
+vocab_size: 4096
+d_model: 510
+n_layers: 8
+n_modules: 8
+workspace_dim: 256
+n_branches: 4
+n_timescales: 3
+max_seq_len: 2048
+dropout: 0.1
+
+# AGI 模块：开启 M1-M4
+use_symbolic: true
+use_self_modeling: true
+use_embodied: true
+use_hierarchical: true
+use_continual: false
+use_causal: false
+
+# 配置
+symbolic_vocab_size: 512
+n_subroutines: 4
+memory_capacity: 10000
+max_goal_depth: 5
+
+# 训练配置
+lr: 0.0001
+weight_decay: 0.01
+total_steps: 3000
+warmup_steps: 500
+max_grad_norm: 1.0
+use_scheduler: true
+use_amp: true
+curriculum: false
+
+# 日志
+output_dir: outputs/stage3_agi
+log_interval: 1
+val_interval: 500
+save_interval: 1000
