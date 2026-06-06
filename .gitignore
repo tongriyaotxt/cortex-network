@@ -18,3 +18,38 @@ checkpoints/
 .DS_Store
 wandb/
 tensorboard_logs/
+
+# Data & backups
+data/
+data_*/
+data_v*/
+*.jsonl
+*.txt
+!requirements.txt
+!README*.txt
+!LICENSE.txt
+
+# Temporary scripts
+crawl_*.py
+fetch_*.py
+generate_*.py
+build_*.py
+check_*.py
+debug_*.py
+verify_*.py
+monitor_*.py
+watch_*.py
+parse_*.py
+merge_*.py
+analyze_*.py
+test_baike*.py
+test_baike*.txt
+
+# Sample / temp files
+purepen_sample.txt
+chapter1_*
+baidu_urls.txt
+type
+
+# Tokenizer outputs
+data/tokenizer/
