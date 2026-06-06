@@ -19,6 +19,7 @@ from .workspace_bootstrapper import WorkspaceBootstrapper
 from .self_modifying import SelfModifyingInterface, WeightEditor
 from .oneshot_consolidator import OneShotConsolidator
 from .chappie_model import ChappieCORTEX
+from .personality_engine import EmotionalState, EmotionSystem, MoralRule, MoralDevelopmentModule, LifeEvent, SelfNarrativeGenerator
 
 __all__ = [
     "KnowledgeCompiler",
@@ -29,4 +30,10 @@ __all__ = [
     "WeightEditor",
     "OneShotConsolidator",
     "ChappieCORTEX",
+    "EmotionalState",
+    "EmotionSystem",
+    "MoralRule",
+    "MoralDevelopmentModule",
+    "LifeEvent",
+    "SelfNarrativeGenerator",
 ]
